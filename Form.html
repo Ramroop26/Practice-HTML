@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Page</title>
 </head>
-<body>
-    <form action="/image.png">
+<body >
+    <form action="/image.png" >
       username:  <input type="username" placeholder="username">
         <br><br>
      password:   <input type="password"  placeholder="password">
@@ -138,14 +138,17 @@ file... read it carefully.
             </table>
 
             <!-- - Forms in HTML -->
-
+<!-- w3form email access -->
             <h4>Registration Form</h4>
-<form action="/action.php">
-<input type="text" placeholder="username" />
+
+<form action="https://api.web3forms.com/submit" method="POST" >
+    <input type="hidden" name="access_key" value="56cade65-3414-470f-a625-f650ec0780dd">
+ Enter Name:<input type="text" placeholder="username" required/>
 <br />
 <br />
-<input type="password" placeholder="password" />
+ Enter Password:<input type="password" placeholder="password" />
 <br /><br />
+ Enter Email: <input type="text" name="Email" placeholder="Email">
 <h5>Select your class</h5>
 <label for="101">
 <input type="radio" value="class XI" name="class" id="101" />class XI
@@ -157,19 +160,19 @@ file... read it carefully.
 <br /><br />
 <h5>Select Fav Subjects</h5>
 <label for="math">
-<input type="checkbox" value="math" name="subject" id="101" /> Math
+<input type="checkbox" value="math" name="subject" id="101" /> Javascript
 </label>
 <br /><br />
 <label for="phy">
-<input type="checkbox" value="phy" name="subject" id="102" /> Physics
+<input type="checkbox" value="phy" name="subject" id="102" /> Python
 </label>
 <br /><br />
 <label for="chem">
-<input type="checkbox" value="chem" name="subject" id="103" /> Chemistry
+<input type="checkbox" value="chem" name="subject" id="103" /> java
 </label>
 <br /><br />
 <label for="CS">
-<input type="checkbox" value="CS" name="subject" id="104" /> Computer
+<input type="checkbox" value="CS" name="subject" id="104" /> React
 Science
 </label>
 <br /><br />
@@ -211,12 +214,19 @@ height="315"
 src="https://en.wikipedia.org/wiki/India"
 ></iframe>
 <hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0BE1cZsQOZ0?si=-kB_-voRoL6gZtFV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<hr>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d58655.774072377!2d77.4357733!3d23.2436009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1738673398465!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
+<iframe src="https://en.wikipedia.org/wiki/Main_Page" frameborder="0"></iframe>
 
 <!-- Video Tag in HTML -->
 
-<video width="560" height="315" src="/myVideo.mov" controls autoplay>
+<video width="560" height="315" src="/myVideo.mov" controls autoplay loop muted >
     my video
     </video>
     <hr>
+    <!-- anchor tag -->
+    &lt;a&gt;hii&lt;/a&gt;
 </body>
 </html>
