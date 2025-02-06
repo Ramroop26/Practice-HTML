@@ -1,0 +1,38 @@
+body{
+    padding: auto;
+    width: auto;
+    height: auto;
+}
+p{
+/*     
+    color: rgb(255, 98, 0);
+    border-width: 5px;
+   
+    border-style: double;
+    border-color: black; */
+    border: 5px double red;
+   
+    color: blueviolet;
+    height: 200px;
+    width: 200px;
+    
+    margin-left: 600px;
+    margin: 400px;
+
+    
+    padding: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    position: relative;
+    
+
+    
+    
+
+
+    
+}

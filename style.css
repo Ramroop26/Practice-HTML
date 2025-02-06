@@ -1,0 +1,35 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} */
+/* html body{
+height: 100%;
+width: 100%;
+overflow-x: hidden;
+}css three inline internal external  
+css Properties: value; */ 
+nav a{
+    text-decoration: none;
+    position: relative;
+    bottom: 33px;
+    text-transform: uppercase;
+font-style: normal;
+font-weight: 600;
+margin: 0 9px;
+background-color: rgb(255, 253, 249);
+padding: 10px 5px;
+border-radius: 8px;
+
+
+
+}
+nav a:hover{
+  color: #fff;
+  background-color: rgba(28, 168, 227, 0.866);
+}
+nav{
+position: relative;
+left: 67%;
+
+}
