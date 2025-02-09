@@ -1,38 +1,121 @@
 body{
-    padding: auto;
-    width: auto;
-    height: auto;
+    
+     padding: 0%;
+        margin: 0%;
+       
 }
-p{
-/*     
+/* p{
+     
     color: rgb(255, 98, 0);
     border-width: 5px;
    
     border-style: double;
     border-color: black; */
-    border: 5px double red;
+    /* border: 5px double red;
    
-    color: blueviolet;
+    color: rgb(15, 23, 19);
+    background-color: rgb(29, 235, 90);
     height: 200px;
     width: 200px;
     
-    margin-left: 600px;
-    margin: 400px;
+    
+border: 1px solid rgb(7, 11, 12);
+ 
 
     
-    padding: 200px;
-    border-radius: 50%;
+ 
+    border-radius: 1px;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
+     display: flex;
+     
+     
+}   
+
+ h1{
+
+    align-items: center;
     justify-content: center;
     display: flex;
-    align-content: center;
-    position: relative;
-    
+    background-color: blueviolet;
+   
+ }   
+ .Cybtext{
+   
+   text-align: right;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   padding: 1px;
+   border-radius: 10px;
+   border-top: 10px;
+   position: relative;
+   border-bottom: 10px;
+   border-left: 10px;
+   border-right: 10px;
+   border-color: rgb(179, 73, 73);
+   border-style: solid;
+   border-bottom-right-radius: 10px;
+   border-radius: 50%;
+   margin-left: 60px;
+   
 
+ }
+ marquee{
+   background-color: aqua;
+   color: rgb(16, 13, 15); 
+ } */
+.nav  {
+   height: 40px;
+   word-spacing: 50px;
+   background-color: aqua;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: rgb(27, 8, 8);
+   text-decoration: none;
+   text-transform: uppercase;
+ position: relative;
+
+ 
+ background-image: conic-gradient(red, yellow, green);
+   
+   }
+   img{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      margin-left: 500px;
+      
+      
+      
+      height: 200px;
+      width: 200px;
+      border-top-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+     position: relative;
+     
+   }
+   a{
+    background-color: rgb(111, 65, 102);
+    color: white;
+    border: 10px  solid  color( red green blue);
+    border-color: white;
+   border-bottom: 10px;
+    border-radius: 9px;
+    text-decoration: none;
+    padding: 4px;
     
     
+   }
+   
+
+   
+   
+   
+
+   
+   
 
 
-    
-}
+   

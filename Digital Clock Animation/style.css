@@ -1,0 +1,26 @@
+container div{
+    background-color: white;
+    text-align: center;
+}
+#time{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+color: rgb(155, 127, 255);
+background-color: rgb(216, 248, 10);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 650px;
+}
+#minutes {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    
+}
