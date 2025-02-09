@@ -9,7 +9,7 @@ h2{
     color: rgb(0, 255, 42);
     font-size: 50px;
     text-transform: uppercase;
-    text-shadow: 15px 15px 15px gray;
+   
     box-shadow: 15px 15px 15px gray;
     border-radius: 10px;
     
@@ -20,7 +20,7 @@ h2{
 #Box1 .r{
     color: rgb(46, 214, 91);
     font-size: 100px;
-    text-shadow: -15px 5px 3px gray;
+
     text-transform: uppercase;
     
     
@@ -28,44 +28,54 @@ h2{
 #Box1 .s{
     color: rgb(56, 27, 204);
     font-size: 100px;
-    text-shadow: -15px 5px 3px gray;
+   
     text-transform: uppercase;
 }
 #Box1 .t{
     color: rgb(207, 23, 164);
     font-size: 100px;
-    text-shadow: -15px 5px 3px gray;
+    
     text-transform: uppercase;
     
 }
 #Box1 .u{
     color: rgb(157, 71, 255);
     font-size: 100px;
-    text-shadow: -15px 5px 3px gray;
+   
     text-transform: uppercase;
 }
 #Box1 .v{
     color: rgb(200, 255, 71);
     font-size: 100px;
-    text-shadow: -15px 5px 3px gray;
+    
     text-transform: uppercase;
 }
 #Box1 .w{
     color: yellow;
     font-size: 100px;
-    text-shadow: -15px 15px 3px gray;
+
     text-transform: uppercase;
 }
 h1{
     text-align: center;
     justify-content: center;
-    box-shadow: 10px 20px 16px gray;
+    box-shadow: 10px 10px 3px gray;
 
     border-radius: 10px;
-    margin-bottom: 400px;
-    top: 100px;
     
     
-background-color: aqua;
+    
+    height: 130px;
+    width: 520px;
+font-size: 120px;
+padding: 10px;
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+text-shadow: 15px 15px 3px gray;
+    
+    background-color: aqua;
+    background-image: url(./image.png);
     
 }
