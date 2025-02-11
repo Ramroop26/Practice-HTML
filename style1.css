@@ -76,6 +76,78 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-shadow: 15px 15px 3px gray;
     
     background-color: aqua;
-    background-image: url(./image.png);
+    background-image: url(./image11.png);
     
+}
+
+#show{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(./image11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(./image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.div4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(./image11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.div5{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#maindiv{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.text{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    height: 100px;
+    margin-top: 5%;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
 }
