@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+
+    
+    
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        
+
+    }
+    #navbar  div li {
+        display: flex;
+        text-transform: uppercase;
+        list-style: none;
+      
+        
+       
+    }
+
+    #navbar  h1 a{
+        display: flex;
+        text-decoration: none;
+        color: #050505;
+       font-family: Arial, Helvetica, sans-serif;  
+        color: white;
+        
+        
+        
+    }
+
+ 
+    #navbar .icon{
+        display: flex;
+        
+    }
+
+    #navbar  div nav  a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+        color: white;
+        margin-top: 30px;
+
+        
+        
+    }
+    #navbar h1 {
+        display: flex;
+        margin-top: 20px;
+       
+        
+    
+    }
+
+    #navbar  div nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        gap: 20px;
+
+        
+        
+    }
+
+
+    #navbar  div nav ul li {
+        display: flex;
+        justify-content: space-between;
+       
+       
+    }
+    #navbar  div .button {
+        margin-left: -300px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 7px;
+        color: aliceblue;
+        /* margin-right: 300px; */
+        background-color: #60e5c0;  
+    }
+      .image{
+        /* position: absolute; */
+        display: flex;
+        width: 100%;
+        height:400px;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./images/logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .detail-box{
+        display: flex;
+    }
+    
+
+    
+
+
+    
+    

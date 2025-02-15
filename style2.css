@@ -22,16 +22,17 @@ box-sizing: border-box;
     height: 50px;
     border-radius: 50%; 
 }
-#navbar ul {
+#navbar  nav ul {
     display: flex;
     list-style-type: none;
     gap: 10px;
 
 
 }
-#navbar ul li a{
+#navbar  nav ul li a{
     display: flex;
     text-decoration: none;
+    
 }
 
 #navbar button{
