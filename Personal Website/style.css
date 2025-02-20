@@ -81,7 +81,7 @@
        
        
     }
-    #navbar  div .button {
+    #navbar  .button {
         margin-left: -300px;
         margin-top: 20px;
         display: flex;
@@ -89,9 +89,15 @@
         align-items: center;
         padding: 8px;
         border-radius: 7px;
-        color: aliceblue;
+        color: black;
         /* margin-right: 300px; */
-        background-color: #60e5c0;  
+        background-color: white;  
+        /* transition: all 2s ease ; */
+    }
+    #navbar .button:hover{
+    
+        /* transform: rotateX(180deg)  rotateY(180deg); */
+        background-color: red;
     }
       .image{
         /* position: absolute; */
