@@ -39,3 +39,15 @@ box-sizing: border-box;
     height: 22px;
     
 }
+
+#navbar .box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    animation:  move 5s ease infinite;
+}
+@keyframes move {
+    0%{
+        background-image: url(./image.png);
+    }
+}
