@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 0;
+    background-color: #006c4b; /* Background color */
+    color: white;
+}
+
+header {
+    background-color: #007a5e;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+ 
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container :hover{
+    color: black;
+}
+.departments:hover{
+    color: blanchedalmond;
+}
+
+.action-section h1{
+    display: flex;
+    justify-content: center;
+
+}
+.action-section p{
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+.action-section .pera{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.action-section h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+.container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+
+.container p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.departments {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.department {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.department h2:hover{
+    color: lightgreen;
+}
+.department p:hover{
+    color: lightgreen;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006c4b;
+    font-size: 1.5em; /* Replace with icons as necessary */
+}
+
+.cardiology {
+    background-image: url('./images/s1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.cardiology h2{
+    justify-content: center;
+
+}
+
+.diagnosis {
+    background-image: url('./images/s2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.surgery {
+    background-image: url('./images/s3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first-aid {
+    background-image: url('./images/s4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.view-all {
+    background-color: #92E7C6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-all:hover {
+    background-color: #80E0B3;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Align the items at the top */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.social-links i{
+    
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+h3 {
+    margin-bottom: 10px;
+
+}
+
+p, ul {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+a {
+    color: white; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.newsletter input {
+    padding: 15px;
+    width: 98%;
+    /* margin-left: 90px; */
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 15px;
+    width: 98%;
+    margin-left: -0%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5EBF89; /* Button color */
+    color: white;
+    cursor: pointer;
+}
+.newsletter button:hover{
+    background-color: #006c4b;
+    
+    border: 1px solid #62d2a2;
+    color: #5EBF89;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em; /* Smaller font for the bottom text */
+}
+.footer{ 
+  background-color: #007a5e;
+
+}
