@@ -48,11 +48,10 @@ nav ul li {
 }
 
 .image-container img {
-    width: 60%;
-    height: auto;  
+    width: 50%;
+    height: auto;
     margin-top: 70px;
-    margin-left: 150px;
-
+    margin-left: 180px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;

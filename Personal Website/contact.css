@@ -39,7 +39,7 @@ nav ul li {
 
 .form-container {
     flex: 1;
-    padding: 20px;
+    padding: 15px;
     background-color: #fff;
     margin-right: 20px;
     border-radius: 8px;
@@ -50,6 +50,7 @@ nav ul li {
     margin-bottom: 20px;
     font-size: 24px;
     text-align: left;
+    color: black;
 }
 
 .form-container input,
@@ -98,6 +99,9 @@ footer {
     margin: 0 auto;
     padding: 30px;
 }
+
+
+
 .social-links i{
     
     margin: 0 10px;
