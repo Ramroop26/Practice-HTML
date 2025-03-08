@@ -12,6 +12,195 @@ body {
     color: white;
 }
 
+
+.image-container img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img:hover{
+    transform: scale(1.1);
+    transition: all ease 2s;
+}
+#check {
+    display: none;
+}
+#bars {
+display: none;
+}
+
+#navbar h1 a{
+    margin-left: -90%;
+    margin-top: -80%;
+   }
+
+
+    @media(max-width: 430px){
+
+         #navbar #links  {
+            
+            display: none;
+            
+        }
+       #navbar h1 a{
+        margin-left: -60%;
+       }
+       
+
+         #links{
+            display: none;
+            padding: 5px 25px;
+            margin: 5px 0;
+        }
+        
+        #bars{
+            display: block;
+        }
+
+         #bars i{
+            display: block;
+            position: absolute;
+            z-index: 999;
+            right: 7%;
+            
+            
+            top: 3%;
+            padding: 5px 25px;
+            margin: 5px 0;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            background-color: #fff;
+            color: gray;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+            
+        }
+        .image-container img{
+            display: block;
+        }
+       
+        #navbar  div nav ul{
+            flex-direction: column;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           
+        }
+
+        .container .box {
+            flex-direction: column;
+            grid-template-columns: auto;
+            
+        }
+
+        
+        .about-section .image-container img{
+            display: flex;
+            width: 80%;
+        height: 180px;
+        margin-top: 130px;
+        margin-left: 2%;
+        }
+         .about-section .image-container img:hover{
+            transform: scale( 1.1 );
+            transition: all ease 1s;
+        }
+         .about-section .text-container button{
+          display: flex;
+          width: 70%;
+        }
+        .about-section .text-container button:hover{
+            color: black;
+            background-color: #006c4b;
+        }
+        .reach-at {
+            
+            margin-left: -7%;
+        }
+
+        .social-links{
+            display: flex;
+        }
+        .newsletter{
+           width: 30%;
+           height: 10px;
+           
+           margin-left: -6%;
+        }
+        .links{
+            margin-left: -5%;
+        }
+        .newsletter input{
+            width: 20%;
+            height: 40px;
+            margin-left: 15%;
+        }
+        .newsletter .ic{
+            width: 100%;
+            height: 40px;
+            margin-left: 15%;
+            
+
+        }
+
+
+
+        .fa-facebook-f:hover{
+            color: #316FF6 !important;
+            
+            
+           }
+           .fa-twitter:hover{
+            color:  #1da1f2 !important;
+            
+           }
+           .fa-linkedin-in:hover{
+            color:  #0077B5 !important;
+            
+           }
+           .fa-instagram:hover{
+            color: rgb(255, 0, 93) !important;
+            
+           }
+
+
+
+        #check:checked~#navbar #links  {
+            display: flex !important;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column !important;
+            position:absolute;
+            width: 100%;
+            height: 65vh;
+            top: 2%;
+            left: 0%;
+            background-color: #10ac8a;
+            
+        }
+        #check:checked~.image {
+             padding-top: 600px;
+        }
+    
+        .container .img-box img{
+            width: 350px;
+            margin-left: 5%;
+        }
+        
+        .map-container{
+            display: block;
+        }
+        .image-container img{
+            display: flex !important;
+            margin-left: 70%;
+            width: 100%;
+        }
+      
+
+    }
+
 header {
     background-color: #007a5e;
     color: white;

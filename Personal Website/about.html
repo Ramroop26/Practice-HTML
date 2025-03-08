@@ -8,17 +8,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html" class="home">ORTHOC</a></li>
-                <li><a href="./index.html">HOME</a></li>
-                <li><a href="./about.html">ABOUT</a></li>
-                <li><a href="./departments.html">DEPARTMENTS</a></li>
-                <li><a href="./doctor.html">DOCTORS</a></li>
-                <li><a href="./contact.html">CONTACT US</a></li>
-            </ul>
-        </nav>
+
+    <label for="check" id="bars">
+        <i class="fa-solid fa-bars"></i>
+        
+      </label>
+          <input type="checkbox" id="check">
+    <header id="navbar">
+        <h1><a href="./index.html">ORTHOC</a></h1>
+        <div id="links">
+            <nav class="custom_nav">
+                <ul  class="navbar_nav">
+       
+                        <li class="nav-item">
+                         <a class="nav-link" href="./index.html">Home</a>
+                       </li>
+                        <li class="nav-item">
+                         <a class="nav-link"  href="./about.html" >About</a>
+                       </li>
+                        <li class="nav-item">
+                         <a class="nav-link" href="./departments.html" >Departments</a>
+                       </li>
+                        <li class="nav-item">
+                         <a class="nav-link"  href="./doctor.html" >Doctors</a>
+                       </li>
+                        <li class="nav-item">
+                         <a class="nav-link" href="">Contact us</a>
+                       </li>
+                        <li class="nav-item">
+                         <a class="nav-link" href=""><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></a>
+                       </li>
+                       
+
+                </ul>
+                
+            </nav>
+            
+            </div>
     </header>
 
     <main>
@@ -65,7 +91,7 @@
             <div class="newsletter">
                 <h3>Newsletter</h3>
                 <input type="email" placeholder="Enter email">
-                <button>Subscribe</button>
+                <button class="ic">Subscribe</button>
             </div>
         </div>
         <div class="footer-bottom">
